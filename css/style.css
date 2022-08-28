@@ -34,7 +34,7 @@ body{
     color: var(--White);
     max-width: 41.6rem;
     height: 41.4rem;
-    background-color: var(--Dark-Blue);
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
     border-radius: 3rem;
     margin: 0 0 3rem;
     animation: reload 0.5s ease-in forwards;
@@ -94,13 +94,13 @@ body{
 }
 
 .rating:hover{
-    background-color: var(--Orange);
+    background-color: var(--Light-Grey);
     color: var(--White);
     cursor: pointer;
 }
 
 .rating:focus{
-    background-color: var(--Light-Grey);
+    background-color: var(--Orange);
     color: var(--White);
 }
 
